@@ -3,12 +3,13 @@
 window.onload = function() {
   // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAc2F2RgxQ-dCtUIxMcLM79oFrzuuyHh3M",
-  authDomain: "chat-7b5a9.firebaseapp.com",
-  projectId: "chat-7b5a9",
-  storageBucket: "chat-7b5a9.appspot.com",
-  messagingSenderId: "527712069577",
-  appId: "1:527712069577:web:109a6e91b6cba66244aa18"
+  apiKey: "AIzaSyArhrSnnnju5LKBzn2sbskhIqYWTRcvEL4",
+  authDomain: "chat-3e4c5.firebaseapp.com",
+  databaseURL: "https://chat-3e4c5-default-rtdb.firebaseio.com",
+  projectId: "chat-3e4c5",
+  storageBucket: "chat-3e4c5.appspot.com",
+  messagingSenderId: "311600591134",
+  appId: "1:311600591134:web:f9713252830c88f935990f"
 };
   firebase.initializeApp(firebaseConfig);
   // This is very IMPORTANT!! We're going to use "db" a lot.
