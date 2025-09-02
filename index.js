@@ -3,15 +3,16 @@
 window.onload = function() {
   // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyArhrSnnnju5LKBzn2sbskhIqYWTRcvEL4",
-  authDomain: "chat-3e4c5.firebaseapp.com",
-  databaseURL: "https://chat-3e4c5-default-rtdb.firebaseio.com",
-  projectId: "chat-3e4c5",
-  storageBucket: "chat-3e4c5.appspot.com",
-  messagingSenderId: "311600591134",
-  appId: "1:311600591134:web:f9713252830c88f935990f"
+  apiKey: "AIzaSyB1zmX4ouqhVFbnBSsiP1FdPEMiKp87-AU",
+  authDomain: "galax-ea90a.firebaseapp.com",
+  projectId: "galax-ea90a",
+  storageBucket: "galax-ea90a.firebasestorage.app",
+  messagingSenderId: "735704486753",
+  appId: "1:735704486753:web:65d4a1b747f2b5d6902b20"
 };
-  firebase.initializeApp(firebaseConfig);
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
   // This is very IMPORTANT!! We're going to use "db" a lot.
   var db = firebase.database()
   // We're going to use oBjEcT OrIeNtEd PrOgRaMmInG. Lol
