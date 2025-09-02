@@ -17,8 +17,7 @@ const firebaseConfig = {
   messagingSenderId: "311600591134",
   appId: "1:311600591134:web:f9713252830c88f935990f"
 };
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
   // This is very IMPORTANT!! We're going to use "db" a lot.
   var db = firebase.database()
   // We're going to use oBjEcT OrIeNtEd PrOgRaMmInG. Lol
@@ -316,7 +315,7 @@ const app = initializeApp(firebaseConfig);
           var message_content = document.createElement('p')
           message_content.setAttribute('class', 'message_content')
           message_content.textContent = `${message}`
-          
+
           message_user_container.append(message_user)
           message_content_container.append(message_content)
           message_inner_container.append(message_user_container, message_content_container)
